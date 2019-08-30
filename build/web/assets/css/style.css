@@ -1,0 +1,39 @@
+ html {
+
+
+            color: #c8c8c8;
+            font-family: 'Tangerine', Sans-serif;
+            font-size: 15px;
+
+        }
+        body
+        {
+            width: auto;
+            height: auto;
+          
+            background-image: url('../images/bg-5.png');
+            background-size: cover;
+
+
+        }
+
+
+        section button {
+            padding: 1.25rem 2.5rem;
+
+            background-color: #009ac9;
+            border: 1px solid transparent;
+            color: #ffffff;
+
+            -webkit-border-radius: 3px;
+            border-radius: 3px;
+            -webkit-transition: all 0.3s ease-in-out;
+            -moz-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+        }
+
+        section button:hover {
+            background-color: #ffffff;
+            color: #009ac9;
+            border-color: #009ac9;
+        }
